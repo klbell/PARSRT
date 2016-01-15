@@ -3,7 +3,6 @@
 LPCTSTR saveDirectory = _T("C:\\Users\\PARS1\\Desktop\\PARS\\Data\\Jan11_2016_PARSMouse\\");
 
 bool useMTTrans = false;
-int test;
 
 int main()
 {
