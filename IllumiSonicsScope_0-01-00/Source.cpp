@@ -1,6 +1,6 @@
 #include "Source.h"
 
-LPCTSTR saveDirectory = _T("C:\\Users\\PARS1\\Desktop\\PARS\\Data\\Jan11_2016_PARSMouse\\");
+LPCTSTR saveDirectory = _T("C:\\Users\\PARS1\\Desktop\\PARS\\Data\\Jan20_MouseVideo\\");
 
 bool useMTTrans = false;
 

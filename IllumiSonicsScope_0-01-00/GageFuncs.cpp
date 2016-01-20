@@ -229,7 +229,7 @@ int saveGageData(LPCTSTR saveDirectory)
 {
 	// Get that transfer going!
 	_ftprintf(stdout, "Transfering... ", u32ChannelNumber);
-	_ftprintf(stdout, "Expected to take %d s... ", (int)((float)CsAppData.u32TransferSegmentCount*(44.0 / 1e6)));
+	_ftprintf(stdout, "Expected to take %d s... ", (int)((float)CsAppData.u32TransferSegmentCount*(44.0 / 1e6)*4));
 	clock_t startClockTime = clock(), endClockTime;
 
 	// Prepare inData structre for transfer

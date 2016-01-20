@@ -12,8 +12,8 @@ int16 *peakData;
 int16 **mirrData;
 uInt8 colormap[256][3];
 
-int imageWidth = 600;
-int imageHeight = 600;
+int imageWidth = 800;
+int imageHeight = 800;
 
 int interpLevel = 4; // size (in pixels) of output pixels;
 int interpHeight, interpWidth;
@@ -217,7 +217,7 @@ int updateScopeWindow()
 		}
 	}
 
-	bool oldAverage = true;
+	bool oldAverage = false;
 	int sUp, sDown, sRight, sLeft; // for fancy averaging
 	float wUp, wDown, wLeft, wRight, wDen;
 	float wMult = 2;
